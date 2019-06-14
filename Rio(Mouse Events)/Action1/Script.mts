@@ -118,14 +118,9 @@ Wait(environment("RIO_STOP_TIMER"))
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).WinObject("AfxFrameOrView140u").Click 967, 613, micRightBtn @@ hightlight id_;_2099924_;_script infofile_;_ssf1140.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).WinObject("AfxFrameOrView140u").Click 967, 667, micRightBtn @@ hightlight id_;_2099924_;_script infofile_;_ssf1141.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).WinMenu("ContextMenu").Select "Hide"
-Wait(environment("RIO_STOP_TIMER"))
-'ADD MANUAL COMPONENT @@ hightlight id_;_2099924_;_script infofile_;_ssf1143.xml_;_
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate @@ hightlight id_;_331488_;_script infofile_;_ssf1144.xml_;_
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 366,482 @@ hightlight id_;_1576676_;_script infofile_;_ssf1145.xml_;_
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").DblClick 501,496 @@ hightlight id_;_1576676_;_script infofile_;_ssf1146.xml_;_
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).WinObject("AfxFrameOrView140u").Click 864,599 @@ hightlight id_;_2099924_;_script infofile_;_ssf1147.xml_;_
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).WinObject("AfxFrameOrView140u").Type " " @@ hightlight id_;_2099924_;_script infofile_;_ssf1149.xml_;_
-Wait(environment("RIO_STOP_TIMER"))
+Wait(environment("RIO_STOP_TIMER")) @@ hightlight id_;_658956_;_script infofile_;_ssf1356.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).WinObject("AfxFrameOrView140u").Type " "
+Window("SketchUp Pro 2017").WinObject("AfxFrameOrView140u").Click 1037,561 @@ hightlight id_;_855570_;_script infofile_;_ssf1358.xml_;_
 'AUTO MODE PLACEMENT
 Window("SketchUp Pro 2017").WinObject("AfxFrameOrView140u").Click 1058,529 @@ hightlight id_;_460866_;_script infofile_;_ssf1397.xml_;_
 Window("SketchUp Pro 2017").WinObject("AfxFrameOrView140u").Click 1060, 519, micRightBtn @@ hightlight id_;_460866_;_script infofile_;_ssf1398.xml_;_
@@ -134,25 +129,25 @@ Window("SketchUp Pro 2017").WinMenu("ContextMenu").Select "Rio Tools;Add Adjacen
 Window("SketchUp Pro 2017").Dialog("RioSTD").Activate
 Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 321,138 @@ hightlight id_;_330886_;_script infofile_;_ssf1404.xml_;_
 Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").DblClick 224,138
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("Main Category_2").Activate 0 @@ hightlight id_;_1_;_script infofile_;_ssf1407.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1408.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1409.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1410.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1411.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 784,339 @@ hightlight id_;_330886_;_script infofile_;_ssf1412.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("Sub Category_2").Activate 0 @@ hightlight id_;_1_;_script infofile_;_ssf1414.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1415.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1416.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1417.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1418.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1419.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1420.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1421.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn  @@ hightlight id_;_525582_;_script infofile_;_ssf1422.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").Activate @@ hightlight id_;_1510028_;_script infofile_;_ssf1403.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("Main Category_2").Activate 0 @@ hightlight id_;_1_;_script infofile_;_ssf1392.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1393.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1394.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1395.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1396.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("Sub Category_2").Activate 0 @@ hightlight id_;_1_;_script infofile_;_ssf1397.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1398.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1399.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1400.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1401.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1402.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1403.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1404.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1705668_;_script infofile_;_ssf1405.xml_;_
 Wait(environment("RIO_STOP_TIMER"))
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 247,397 @@ hightlight id_;_854056_;_script infofile_;_ssf1435.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD | Select Carcass").WinObject("Chrome Legacy Window").DblClick 293,311/// @@ hightlight id_;_854056_;_script infofile_;_ssf1426.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").Activate @@ hightlight id_;_2690594_;_script infofile_;_ssf1417.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 230,387 @@ hightlight id_;_3213772_;_script infofile_;_ssf1418.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 300,393 @@ hightlight id_;_3213772_;_script infofile_;_ssf1419.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD | Select Carcass").WinObject("Chrome Legacy Window").DblClick 303,306 @@ hightlight id_;_854056_;_script infofile_;_ssf1426.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Select Carcass_2").Activate @@ hightlight id_;_396834_;_script infofile_;_ssf1010.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Select Carcass_2").WinObject("Chrome Legacy Window").Drag 666,415 @@ hightlight id_;_854364_;_script infofile_;_ssf1011.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Select Carcass_2").WinObject("Chrome Legacy Window").Click 531,228 @@ hightlight id_;_2166030_;_script infofile_;_ssf1112.xml_;_
@@ -162,70 +157,72 @@ Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate
 Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 360,598 @@ hightlight id_;_724168_;_script infofile_;_ssf1423.xml_;_
 Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").DblClick 463,615 @@ hightlight id_;_724168_;_script infofile_;_ssf1424.xml_;_
 'lAMINATION
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").DblClick 31,207
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 482,90
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 452,91
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type "FVER"
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 512,143
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 434,135
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type "VREVR"
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("MAin Category").Activate 7
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("Sub Category").Activate 5
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").DblClick 31,207 @@ hightlight id_;_1576676_;_script infofile_;_ssf1150.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate @@ hightlight id_;_331488_;_script infofile_;_ssf1151.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 482,90 @@ hightlight id_;_1576676_;_script infofile_;_ssf1152.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 452,91 @@ hightlight id_;_1576676_;_script infofile_;_ssf1153.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type "FVER" @@ hightlight id_;_1772804_;_script infofile_;_ssf1154.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 512,143 @@ hightlight id_;_1576676_;_script infofile_;_ssf1155.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 434,135 @@ hightlight id_;_1576676_;_script infofile_;_ssf1156.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type "VREVR" @@ hightlight id_;_331488_;_script infofile_;_ssf1165.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("MAin Category").Activate 7 @@ hightlight id_;_1_;_script infofile_;_ssf1166.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1772804_;_script infofile_;_ssf1167.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("Sub Category").Activate 5 @@ hightlight id_;_1_;_script infofile_;_ssf1168.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1772804_;_script infofile_;_ssf1169.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1772804_;_script infofile_;_ssf1170.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1576676_;_script infofile_;_ssf1178.xml_;_
 Wait(environment("RIO_STOP_TIMER"))
 'SHUTTER LAMINATION
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 306,453
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 306,453 @@ hightlight id_;_3212778_;_script infofile_;_ssf1273.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 367,453
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").Activate
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 661,34
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 619,41
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 111,157
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").Activate @@ hightlight id_;_3148478_;_script infofile_;_ssf1182.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 661,34 @@ hightlight id_;_2491790_;_script infofile_;_ssf1183.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 619,41 @@ hightlight id_;_2491790_;_script infofile_;_ssf1184.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1640050_;_script infofile_;_ssf1185.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1640050_;_script infofile_;_ssf1186.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1640050_;_script infofile_;_ssf1188.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 111,157 @@ hightlight id_;_1836658_;_script infofile_;_ssf1195.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 135,255
 Wait(environment("RIO_STOP_TIMER"))
 'RIGHT LAMINATION
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 314,677
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 357,681
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").Activate
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 661,34
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 619,41
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 111,157
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate @@ hightlight id_;_1_;_script infofile_;_ssf1230.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 314,677 @@ hightlight id_;_1773132_;_script infofile_;_ssf1276.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 357,681 @@ hightlight id_;_3409338_;_script infofile_;_ssf1211.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").Activate @@ hightlight id_;_3148478_;_script infofile_;_ssf1182.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 661,34 @@ hightlight id_;_2491790_;_script infofile_;_ssf1183.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 619,41 @@ hightlight id_;_2491790_;_script infofile_;_ssf1184.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1640050_;_script infofile_;_ssf1185.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1640050_;_script infofile_;_ssf1186.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_2623632_;_script infofile_;_ssf1194.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 111,157 @@ hightlight id_;_1836658_;_script infofile_;_ssf1195.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 135,255
 Wait(environment("RIO_STOP_TIMER"))
 'LEFT LAMINATION
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 604,678
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate @@ hightlight id_;_331488_;_script infofile_;_ssf1212.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 604,678 @@ hightlight id_;_1576676_;_script infofile_;_ssf1213.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 647,681
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 627,601
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").Activate
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 661,34
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 619,41
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 111,157
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 135,255
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 627,601 @@ hightlight id_;_2033266_;_script infofile_;_ssf1215.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").Activate @@ hightlight id_;_3148478_;_script infofile_;_ssf1182.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 661,34 @@ hightlight id_;_2491790_;_script infofile_;_ssf1183.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 619,41 @@ hightlight id_;_2491790_;_script infofile_;_ssf1184.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1640050_;_script infofile_;_ssf1185.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_1640050_;_script infofile_;_ssf1186.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome_WidgetWin_0").Type  micDwn @@ hightlight id_;_2623632_;_script infofile_;_ssf1194.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").Drag 111,157 @@ hightlight id_;_1836658_;_script infofile_;_ssf1195.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD | Choose Lamination").WinObject("Chrome Legacy Window").DblClick 135,255 @@ hightlight id_;_1576676_;_script infofile_;_ssf1218.xml_;_
 Wait(environment("RIO_STOP_TIMER"))
 'UPDATE LAMINATION
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 451,820
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 451,820 @@ hightlight id_;_4196668_;_script infofile_;_ssf1328.xml_;_
 Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 503,832
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").Activate @@ hightlight id_;_3212778_;_script infofile_;_ssf1251.xml_;_
 Wait(environment("RIO_STOP_TIMER"))
-'EXPORT DRAWING
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").DblClick 97,256
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 343,115 @@ hightlight id_;_854056_;_script infofile_;_ssf1453.xml_;_
-Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("Select").Activate 1 @@ hightlight id_;_1_;_script infofile_;_ssf1455.xml_;_
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 410,120
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").Drop 218,114
-Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").VirtualList("Select").Activate
- @@ hightlight id_;_2819372_;_script infofile_;_ssf1452.xml_;_
+'EXPORT DRAWING @@ hightlight id_;_2166312_;_script infofile_;_ssf1320.xml_;_
+Window(environment("RIO_SKETCHUP_ENVIRONMENT")).Dialog("RioSTD").WinObject("Chrome Legacy Window").DblClick 97,256 @@ hightlight id_;_1575534_;_script infofile_;_ssf1385.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micTab @@ hightlight id_;_527794_;_script infofile_;_ssf1386.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type  micTab @@ hightlight id_;_527794_;_script infofile_;_ssf1387.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome_WidgetWin_0").Type " " @@ hightlight id_;_1_;_script infofile_;_ssf1391.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").Drag 659,308 @@ hightlight id_;_2492012_;_script infofile_;_ssf1415.xml_;_
+Window("SketchUp Pro 2017").Dialog("RioSTD").WinObject("Chrome Legacy Window").DblClick 749,318 @@ hightlight id_;_2492012_;_script infofile_;_ssf1416.xml_;_
+@@ hightlight id_;_4196668_;_script infofile_;_ssf1329.xml_;_
+@@ hightlight id_;_3934320_;_script infofile_;_ssf1327.xml_;_
+
